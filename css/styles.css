@@ -1,0 +1,200 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white: #FFFFFF;
+    --background-color:#2F303A;
+}
+
+/* index.html portfolio.html header footer,portfolio.html main */
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    letter-spacing: 0.03em;
+    background-color: var(--primary-white);
+}
+
+.header .logo, .logo-blue {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--title-text-color);
+}
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.header-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.header-nav .link:focus,
+.header-nav .link:hover{
+    color: var(--accent-color);
+}
+
+.list {
+    text-decoration: none;
+    list-style: none;
+}
+
+.contact-links .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.contact-links .link:hover,
+.contact-links .link:focus {
+    color: var(--accent-color);
+}
+
+.portfolio-nav .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.6;
+    color: var(--title-text-color);
+    cursor: pointer;
+}
+
+.portfolio-nav .button:focus,
+.portfolio-nav .button:hover {
+background-color: var(--accent-color);
+color: var(--primary-white);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--primary-white);
+
+}
+
+.footer-googlemaps {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--primary-white);
+}
+
+.footer .link {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-googlemaps:hover,
+.footer-googlemaps:focus {
+    color: var(--accent-color);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
+/* index.html main */
+
+.section-main {
+    background-color: var(--background-color);
+}
+
+.section-main .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white);
+}
+
+.section-main .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.section-main .button:focus,
+.section-main .button:hover{
+    color: var(--primary-white);
+}
+
+.section-advantage .title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.section-advantage .text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-work .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.section-command {
+    background-color: #F5F4FA;
+}
+
+.section-command .main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.section-command .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+}
+
+.section-command .text {
+    font-size: 16px;
+    line-height: 1.19;
+}
