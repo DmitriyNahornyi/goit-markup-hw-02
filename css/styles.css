@@ -15,7 +15,7 @@ body {
     background-color: var(--primary-white);
 }
 
-.header .logo, .logo-blue {
+.logo {
     font-family: 'Raleway',serif;
     font-weight: 700;
     font-size: 26px;
@@ -27,7 +27,7 @@ body {
     color: var(--accent-color);
 }
 
-.header-nav .link{
+.header-nav-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -36,8 +36,12 @@ body {
     text-decoration: none;
 }
 
-.header-nav .link:focus,
-.header-nav .link:hover{
+.header-nav-link:focus,
+.header-nav-link:hover{
+    color: var(--accent-color);
+}
+
+.header-nav-link.current {
     color: var(--accent-color);
 }
 
@@ -46,7 +50,7 @@ body {
     list-style: none;
 }
 
-.contact-links .link {
+.contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,12 +59,12 @@ body {
     color: var(--primary-text-color);
 }
 
-.contact-links .link:hover,
-.contact-links .link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
 }
 
-.portfolio-nav .button {
+.portfolio-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -71,8 +75,8 @@ body {
     cursor: pointer;
 }
 
-.portfolio-nav .button:focus,
-.portfolio-nav .button:hover {
+.portfolio-button:focus,
+.portfolio-button:hover {
 background-color: var(--accent-color);
 color: var(--primary-white);
 }
@@ -109,7 +113,7 @@ color: var(--primary-white);
     color: var(--primary-white);
 }
 
-.footer .link {
+.footer-link {
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
@@ -120,18 +124,18 @@ color: var(--primary-white);
     color: var(--accent-color);
 }
 
-.footer .link:hover,
-.footer .link:focus {
+.footer-link:hover,
+.footer-link:focus {
     color: var(--accent-color);
 }
 
 /* index.html main */
 
-.section-main {
+.main {
     background-color: var(--background-color);
 }
 
-.section-main .title {
+.main-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -141,7 +145,7 @@ color: var(--primary-white);
     color: var(--primary-white);
 }
 
-.section-main .button {
+.main-button {
     font-family: 'Roboto' , sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -155,24 +159,24 @@ color: var(--primary-white);
     cursor: pointer;
 }
 
-.section-main .button:focus,
-.section-main .button:hover{
+.main-button:focus,
+.main-button:hover {
     color: var(--primary-white);
 }
 
-.section-advantage .title {
+.advantage-title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 
-.section-advantage .text {
+.advantage-text {
     font-size: 14px;
     line-height: 1.71;
 }
 
-.section-work .title {
+.work-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -180,11 +184,11 @@ color: var(--primary-white);
     color: var(--title-text-color);
 }
 
-.section-command {
+.command {
     background-color: #F5F4FA;
 }
 
-.section-command .main-title {
+.command-main-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -192,14 +196,18 @@ color: var(--primary-white);
     color: var(--title-text-color);
 }
 
-.section-command .title {
+.command-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--title-text-color);
 }
 
-.section-command .text {
+.command-text {
     font-size: 16px;
     line-height: 1.19;
+}
+
+address {
+    font-style: normal;
 }
